@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-11T22:18:33 IST" name="Default suite" finished-at="2024-10-11T22:18:46 IST" duration-ms="12716">
+    <groups>
+    </groups>
+    <test started-at="2024-10-11T22:18:33 IST" name="Default test" finished-at="2024-10-11T22:18:46 IST" duration-ms="12716">
+      <class name="apitestcase.ApiPractice">
+        <test-method signature="createplace()[pri:0, instance:apitestcase.ApiPractice@3427b02d]" started-at="2024-10-11T22:18:33 IST" name="createplace" finished-at="2024-10-11T22:18:37 IST" duration-ms="3987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createplace -->
+        <test-method signature="updateplaceData()[pri:1, instance:apitestcase.ApiPractice@3427b02d]" started-at="2024-10-11T22:18:37 IST" name="updateplaceData" finished-at="2024-10-11T22:18:39 IST" duration-ms="2027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateplaceData -->
+        <test-method signature="getplaceid()[pri:2, instance:apitestcase.ApiPractice@3427b02d]" started-at="2024-10-11T22:18:39 IST" name="getplaceid" finished-at="2024-10-11T22:18:44 IST" duration-ms="4766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getplaceid -->
+        <test-method signature="deleteplaceid()[pri:3, instance:apitestcase.ApiPractice@3427b02d]" started-at="2024-10-11T22:18:44 IST" name="deleteplaceid" finished-at="2024-10-11T22:18:46 IST" duration-ms="1885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteplaceid -->
+      </class> <!-- apitestcase.ApiPractice -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

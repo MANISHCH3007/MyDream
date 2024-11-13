@@ -1,0 +1,72 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/Welcome3",
+    "definitions": {
+        "Welcome3": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "location": {
+                    "$ref": "#/definitions/Location"
+                },
+                "accuracy": {
+                    "type": "integer",
+                    "format":"integer"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "phone_number": {
+                    "type": "string"
+                },
+                "address": {
+                    "type": "string"
+                },
+                "types": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "website": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "http"
+                    ]
+                },
+                "language": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "accuracy",
+                "address",
+                "language",
+                "location",
+                "name",
+                "phone_number",
+                "types",
+                "website"
+            ],
+            "title": "Welcome3"
+        },
+        "Location": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "lat": {
+                    "type": "number"
+                },
+                "lng": {
+                    "type": "number"
+                }
+            },
+            "required": [
+                "lat",
+                "lng"
+            ],
+            "title": "Location"
+        }
+    }
+}

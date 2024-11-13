@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MMM">
+  <test thread-count="5" name="TTM">
+    <classes>
+      <class name="apitestcase.CreatePlace"/>
+      <class name="apitestcase.Renumanaul"/>
+      <class name="apitestcase.Postreq"/>
+      <class name="apitestcase.ApiPractice"/>
+      <class name="apitestcase.Reqres"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

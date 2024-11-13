@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MMM]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TTM(failed)">
+    <classes>
+      <class name="apitestcase.Postreq">
+        <methods>
+          <include name="getdata"/>
+        </methods>
+      </class> <!-- apitestcase.Postreq -->
+    </classes>
+  </test> <!-- TTM(failed) -->
+</suite> <!-- Failed suite [MMM] -->
